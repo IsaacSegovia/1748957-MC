@@ -1,0 +1,28 @@
+def minimo(arr):
+	p=arr[0]
+	for q in arr:
+		if(q<p):
+			p=q
+			return p
+
+def ordenar(arr):
+	arrsort=[]
+	for p in range(len(arr)):
+		q=minimo(arr)
+		arr.remove(q)
+		arrsort.append(q)
+	return arrsort
+
+import random
+r=random.sample(range(2,102),2)
+cnt=0
+print(r)
+print(r[minimo(r)])
+print(r[minimo(r)])
+r=random.sample(range(2,102),100)
+r
+r=random.sample(range(2,102),2)
+r
+print(min(r))
+print(ordenamientobruto(r))
+print(cnt)
