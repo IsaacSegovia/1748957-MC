@@ -14,19 +14,3 @@ def quicksort(arr):
 		else:
 			mayores.append(e)
 	return quicksort(menores) +[p] + quicksort(mayores)
-
-def rndar(long):
-	arr=[]
-	for i in range(long):
-		arr.append(random, randint(0, long))
-	return arr
-
-l=10
-
-while 1<=10
-	for replica in range(10)
-		ori=rndar(1)
-		arr=quicksort(ori)
-		print(1, cnt, arr, ori)
-		cnt=0
-	l*=2
