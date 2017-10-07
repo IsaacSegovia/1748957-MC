@@ -61,4 +61,4 @@ grafo.conecta('c','f')
 grafo.conecta('c','g')
 grafo.conecta('d','h')
 grafo.conecta('e','i')
-print(DFS(grafo,'a'))  
+print(DFS(grafo,'a'))   #EL RESULTADO ES= ['a', 'a', 'c', 'g', 'f', 'b', 'e', 'i', 'd', 'h']

@@ -62,4 +62,4 @@ grafo.conecta(3,6)
 grafo.conecta(3,7)
 grafo.conecta(4,8)
 grafo.conecta(5,9)
-print(BFS(grafo,1))  
+print(BFS(grafo,1))    #EL RESULTADO=[1, 1, 2, 3, 4, 5, 6, 7, 8, 9]
